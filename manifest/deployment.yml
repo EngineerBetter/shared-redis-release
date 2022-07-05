@@ -53,7 +53,7 @@ instance_groups:
   - name: route_registrar
     release: routing
     consumes:
-      nats: {from: nats, deployment: "((cf_deployment_name))"}
+      nats-tls: {from: nats-tls, deployment: "((cf_deployment_name))", as: nats}
   - name: bpm
     release: bpm
   - name: broker-registrar
