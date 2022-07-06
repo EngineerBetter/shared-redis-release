@@ -11,7 +11,7 @@ default_persistent_disk_type: 5GB
 default_network:  default
 default_az:  z1
 stemcell_os: ubuntu-bionic
-stemcell_version: "1.90"
+stemcell_version: "1.88"
 cf_deployment_name:  cf
 broker_password:  password
 broker_username:  admin
